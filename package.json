@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://www.github.com/lukefiji/node-web-server",
   "author": "Luke Fiji <luke.fiji@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "hbs": "^4.0.1"
+  }
 }
